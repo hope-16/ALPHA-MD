@@ -58,7 +58,7 @@
       "value": "",
       "required": true
     },
-    "NUMERO_OWNER": {
+    "OWNER_NUMBER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
       "value": "",
       "required": false
@@ -76,3 +76,4 @@
     }
   ]
 }
+
