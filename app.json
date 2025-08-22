@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/b148f6ed21fa02ac5325b.jpg",
+  "logo": "https://files.catbox.moe/4h8lfw.jpg",
   "repository": "https://github.com/Keithkeizzah/ALPHA-MD",
   "success_url": "/",
   "stack": "container",
@@ -55,8 +55,8 @@
     },
     "URL": {
       "description": "You must add your bot image URL",
-      "value": "",
-      "required": true
+      "value": "https://files.catbox.moe/4h8lfw.jpg",
+      "required": false
     },
     "OWNER_NUMBER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
@@ -76,4 +76,5 @@
     }
   ]
 }
+
 
