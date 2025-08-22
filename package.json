@@ -5,9 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --attach --name Alpha",
-    "keith": "pm2 start index.js --attach --name Alpha",
-    "stop": "pm2 stop Alpha"
+    "start": "node index.js"
   },
   "keywords": [
     "bot",
