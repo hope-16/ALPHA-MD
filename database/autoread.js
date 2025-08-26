@@ -30,7 +30,7 @@ async function getAutoReadStatus() {
         return settings.status;
     } catch (error) {
         console.error('Error getting autoread status:', error);
-        return 'on'; // Default fallback
+        return 'off'; // Default fallback
     }
 }
 
