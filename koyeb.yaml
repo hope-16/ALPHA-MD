@@ -1,0 +1,16 @@
+name: ALPHA-MD
+services:
+  - name: alpha-md-service
+    type: web
+    ports:
+      - 3000
+    routes:
+      - path: "/"
+    build:
+      type: docker
+      dockerfile: ./Dockerfile
+    regions:
+      - nbo
+      - dar
+      - eda
+
